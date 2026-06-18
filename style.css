@@ -1,0 +1,516 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+.headerone{
+    display: flex;
+    gap: 20px;
+    background-color: #24364a;
+    color: white;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    gap: 8px;
+    position: fixed;
+    justify-content: space-between;
+}
+
+.logo{
+    width:110px;
+    height: 70px;
+    margin-left: 15px;
+}
+
+.location-area > p{
+    margin: 10px 20px 3px 0px;
+}
+
+.search{
+    display:flex;
+    width: 600px;
+    height: 40px;
+}
+
+#categories{
+    width: 60px;
+    height: 40px;
+    padding: 5px;
+    border-color: whitesmoke;
+    background-color: whitesmoke;
+    border-radius: 3px;
+}
+
+.search-bar input{
+    width: 500px;
+    height: 37px;
+    border-radius: 3px;
+    padding: 0px 2px;
+    border: 2px solid whitesmoke;
+}
+
+.search-icon{
+    width: 40px;
+    height: 37px;
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 3px;
+}
+
+.search-icon > i{
+    padding: 12px;
+}
+
+.languageandflag{
+    display: flex;
+    gap:5px;
+    margin-left: 20px;
+}
+
+#languages{
+    border: 2px solid #24364a;
+    border-radius: 3px;
+    background-color: #24364a;
+    color: white;
+}
+
+.sign-in{
+    width: 80px;
+    margin-left: 20px;
+}
+
+.sign-in > button {
+    width: 80px;
+    height: 35px;
+    background-color: yellow;
+    border: 2px solid yellow;
+    border-radius: 3px;
+}
+
+.Orders{
+    margin-left: 20px;
+    width: 70px;
+}
+
+.Orders strong{
+    font-size: 20px;
+}
+
+.shopping{
+    margin-left: 20px;
+}
+
+.shopping > i{
+    font-size: 30px;
+}
+
+.shopping strong{
+    font-size: 15px;
+}
+
+.headerstwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 120px;
+    align-items: flex-end;
+    gap: 3px;
+}
+
+.clicks a{
+     text-decoration: none;
+     color: white;
+}
+
+.advertisers{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+
+.boxes{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 390px;
+    height: 480px;
+    border: 2px solid white;
+    border-radius: 3px;
+    padding: 20px;
+
+}
+
+.seemore a{
+    text-decoration: none;
+    
+}
+
+.boxertwo{
+    background-color: white;
+    padding: 40px;
+    width: 100%;
+    height: 250px;
+    margin: 20px 0px;
+}
+
+.bikers{
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+    height: 200px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    justify-content: flex-start;
+
+}
+
+.biker-item{
+    flex-shrink: 0;
+    width: 350px;
+    height: 200px;
+
+}
+
+.boxerthree{
+    background-color: white;
+    padding: 40px;
+    width: 100vw;
+    height: 250px;
+    margin: 20px 0px;
+}
+
+.homes{
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+    height: 200px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.backtop a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.backtop a:visited{
+    color: white;
+}
+
+.backtop{
+    display:flex;
+    width: 100%;
+    height:40px;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px;
+    background-color: #5379a3;
+}
+
+.info{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    background-color: #24364a;
+    gap: 8px;
+}
+
+.infoo{
+    width: 15%;
+    color: white;
+}
+
+.infoo a{
+    text-decoration: none;
+    color: white;
+}
+
+.infoo p{
+    margin: 7px 0px;
+    color: white
+}
+
+@media (max-width: 512px){
+
+    body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    font-size: 14px;
+    }
+
+    .headerone{
+    display: flex;
+    background-color: #24364a;
+    color: white;
+    width: 100%;
+    height: 140px;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.logo{
+    order:1;
+}
+
+.location{
+    display: none
+}
+
+.location-area{
+    display: none;
+}
+
+.languageandflag{
+    order: 5;
+    width: 130px;
+    
+}
+
+.sign-in{
+    display: none;
+}
+
+.Orders{
+    order: 6;
+    width: 60px;
+    height: auto;
+}
+
+.shopping{
+    order: 7;
+}
+
+.headerstwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 150px;
+    align-items: flex-end;
+    gap: 13px;
+    flex-wrap: wrap;
+}
+
+.boxes{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px 0px;
+    gap: 7px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 390px;
+    height: 420px;
+    border: 2px solid white;
+    border-radius: 3px;
+    padding: 25px;
+
+}
+
+.advertisers{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 200px;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.search{
+    display:flex;
+    width: 220px;
+    height: 40px;
+    order: 2
+}
+
+#categories{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-color: whitesmoke;
+    background-color: whitesmoke;
+    border-radius: 3px;
+}
+
+.search-bar input{
+    width: 150px;
+    height: 37px;
+    border-radius: 3px;
+    padding: 0px 2px;
+    border: 2px solid whitesmoke;
+}
+
+.search-icon{
+    width: 40px;
+    height: 37px;
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 3px;
+}
+
+.search-icon > i{
+    padding: 12px;
+}
+
+.logo{
+    margin: 0px;
+}
+
+.shopping i{
+    font-size: 20px;
+}
+
+.shopping strong{
+    font-size: 15px;
+}
+
+.boxero img{
+    width: 150px;
+    height: 70px;
+}
+
+.boxert img{
+    width: 150px;
+    height: 70px;
+}
+
+.boxerth img{
+    width: 150px;
+    height: 70px;
+}
+
+.boxerf img{
+    width: 150px;
+    height: 70px;
+}
+
+.info{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    background-color: #24364a;
+    gap: 20px;
+}
+
+.infoo{
+    width: 25%;
+    color: white;
+}
+
+.boxertwo{
+    background-color: white;
+    padding: 10px;
+    width: 90%;
+    height: 350px;
+    margin: 20px 0px;
+}
+
+.bikers{
+    display: flex;
+    flex-direction: row;
+    width: 97%;
+    height: 200px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    justify-content: flex-start;
+    gap: 10px;
+
+}
+
+.biker-item{
+    flex-shrink: 0;
+    width: 350px;
+    height: 200px;
+
+}
+
+.boxerthree{
+    background-color: white;
+    width: 95%;
+    height: 350px;
+    margin: 20px 0px;
+    padding: 40px 0px;
+}
+
+.homes{
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+    height: 200px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.advertisers img{
+    width: 350px;
+    height: 200px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
